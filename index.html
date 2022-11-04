@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== LINE ICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <!-- nav -->
+        <nav class="nav container padd-15">
+            <!-- nav logo -->
+            <a href="tony21019.github.io" class="nav-logo">
+                <h2>Portfolio</h2>
+            </a>
+            <!-- nav menu -->
+            <div class="nav-menu" id="nav-menu">
+                <!-- nav list -->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <!-- nav close -->
+                <div class="nav-close" id="nav-close">
+                    <i class="lni lni-close"></i>
+                </div>
+            </div>
+            <!-- nav btn -->
+            <div class="nav-btns">
+                <!-- theme change btn-->
+                <i class="lni lni-pallet change-theme" id="theme-button"></i>
+                <!-- toggle btn -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="lni lni-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!--=============== MAIN ===============-->
+    <main class="main-content">
+        <!--=============== HOME ===============-->
+        <section class="home" id="home">
+            <div class="container">
+                <!-- intro -->
+                <div class="intro">
+                    <!-- avatar -->
+                    <img src="./assets/avatar.svg" alt="avatar" class="avatar">
+                    <!-- info -->
+                    <h1>Anthony Molina</h1>
+                    <span>I'm a <span class="info-text">Front-End developer</span></span>
+                    <!-- social icons -->
+                    <ul class="social-icons">
+                        <li><a href="https://github.com/tony21019"><i class="lni lni-github-original"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/anthony-molina-662a32192/"><i
+                                    class="lni lni-linkedin-original"></i></a></li>
+                        <li><a href="https://codepen.io/tony21019"><i class="lni lni-codepen"></i></a></li>
+                    </ul>
+                    <!-- button -->
+                    <div>
+                        <a href="#" class="btn btn-default">Hire me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== About ===============-->
+        <section class="about section" id="about">
+            <div class="container">
+                <!-- section title-->
+                <h2 class="section-title padd-15">About Me</h2>
+                <div class="row">
+                    <div class="about-img padd-15">
+                        <!-- avatar img-->
+                        <img src="./assets/avatar2.svg" alt="avatar 2" class="avatar">
+                    </div>
+                    <div class="about-content padd-15">
+                        <div class="rounded">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <!-- about text-->
+                                    <p>I am Anthony Molina, a junior web developer from Colombia, I can create
+                                        responsive websites with good visual appearance, I also have knowledge in
+                                        illustration design.</p>
+                                    <div>
+                                        <a download="CV"
+                                            href="./assets/7dbf9f59-473d-4df7-92a0-6b5a218b8a0b.pdf"><button
+                                                class="buttonDownload">Download CV</button></a>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <!-- skill item-->
+                                        <div class="skill-item">
+                                            <h4>UI/UX design</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%; background-color: #6c6ce5">
+                                                </div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item-->
+                                        <div class="skill-item">
+                                            <h4>Illustration design</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 90%; background-color: #ff4c61">
+                                                </div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item-->
+                                        <div class="skill-item">
+                                            <h4>Knowledge in javascript</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 50%; background-color: #ffd15c">
+                                                </div>
+                                                <div class="skill-percent">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- fact item-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-thumbs-up"></i>
+                        <div class="details">
+                            <h3>5</h3>
+                            <p>Projects done</p>
+                        </div>
+                    </div>
+                    <!-- fact item-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-brush-alt"></i>
+                        <div class="details">
+                            <h3>24</h3>
+                            <p>Illustrations</p>
+                        </div>
+                    </div>
+                    <!-- fact item-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-coffee-cup"></i>
+                        <div class="details">
+                            <h3>261</h3>
+                            <p>Cups of coffee</p>
+                        </div>
+                    </div>
+                    <!-- fact item-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-certificate"></i>
+                        <div class="details">
+                            <h3>5</h3>
+                            <p>Certificates</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Services ===============-->
+        <section class="services section">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Services</h2>
+                <div class="row">
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background-color: #6c6ce5;">
+                            <img src="./assets/service-1.svg" alt="service-1" class="service">
+                            <h3>UI/UX design</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt sapiente dolore.</p>
+                        </div>
+                    </div>
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background-color: #ff4c61;">
+                            <img src="./assets/service-2.svg" alt="service-4" class="service">
+                            <h3>Illustration</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt sapiente dolore.</p>
+                        </div>
+                    </div>
+                    <!-- service item -->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner" style="background-color: #ffd15c;">
+                            <img src="./assets/service-3.svg" alt="service-3" class="service">
+                            <h3>Web development</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt sapiente dolore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text padd-15">
+                    <p>Looking for a custom job? <a href="#contact">Click here</a> to contact me!</p>
+                </div>
+            </div>
+        </section>
+        <!--=============== Experience ===============-->
+        <section class="section">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Experience</h2>
+                <div class="row">
+                    <!-- education -->
+                    <div class="education padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- timelime item-->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2021 - present
+                                        </h3>
+                                        <h3 class="timeline-title">Academic certificates</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt sapiente
+                                            dolore.</p>
+                                    </div>
+                                    <!-- timelime item-->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2020 - present
+                                        </h3>
+                                        <h3 class="timeline-title">Academic Degree</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt sapiente
+                                            dolore.</p>
+                                    </div>
+                                    <!-- timelime item-->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2014 - 2019
+                                        </h3>
+                                        <h3 class="timeline-title">Bachelor's Degree</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt sapiente
+                                            dolore.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- experience -->
+                    <div class="experience padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- timelime item-->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-website timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2022 - present
+                                        </h3>
+                                        <h3 class="timeline-title">Web Designer</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt sapiente
+                                            dolore.</p>
+                                    </div>
+                                    <!-- timelime item-->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2022 - present
+                                        </h3>
+                                        <h3 class="timeline-title">Front-End Developer</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt sapiente
+                                            dolore.</p>
+                                    </div>
+                                    <!-- timelime item-->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-brush-alt timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2020 - present
+                                        </h3>
+                                        <h3 class="timeline-title">Illustrator</h3>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt sapiente
+                                            dolore.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Pricing ===============-->
+        <section class="section pricing" id="pricing">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Pricing</h2>
+                <div class="row">
+                    <!-- basic price -->
+                    <div class="prices">
+                        <div class="price-item">
+                            <img src="./assets/price-initial.svg" alt="initial" class="plan-price">
+                            <h3 class="plan">Basic</h3>
+                            <p>You will receive a responsive website designed with html and css. The icons and
+                                illustrations will be from free stock pages.</p>
+                            <h3 class="price"><em>$</em>20*</h3>
+                            <a href="#" class="btn btn-default">I want it</a>
+                        </div>
+                    </div>
+                    <!-- premium price -->
+                    <div class="prices">
+                        <div class="price-item premium">
+                            <span class="badge">Recommended</span>
+                            <img src="./assets/price-standar.svg" alt="initial" class="plan-price">
+                            <h3 class="plan">Standar</h3>
+                            <p>You will receive a responsive website designed with html, css and javascript. The icons
+                                and illustrations will be from free stock pages.</p>
+                            <h3 class="price"><em>$</em>50*</h3>
+                            <a href="#" class="btn btn-default">I want it</a>
+                        </div>
+                    </div>
+                    <!-- standar price -->
+                    <div class="prices">
+                        <div class="price-item">
+                            <img src="./assets/price-premium.svg" alt="initial" class="plan-price">
+                            <h3 class="plan">Premium</h3>
+                            <p>You will receive a responsive website designed with html, css and javascritp. The icons
+                                and illustrations will be designed from scratch.</p>
+                            <h3 class="price"><em>$</em>100*</h3>
+                            <a href="#" class="btn btn-default">I want it</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text padd-15 warning">
+                    <p>*Each price is a minimum and may vary depending on the project.</p>
+                </div>
+            </div>
+        </section>
+        <!--=============== Portfolio ===============-->
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Portfolio</h2>
+                <div class="row">
+                    <div class="portfolio-filter padd-15">
+                        <div class="portfolio-filter-inner">
+                            <button type="button" class="active" data-filter="web">Websites</button>
+                            <button type="button" data-filter="illus">Illustrations</button>
+                            <button type="button" data-filter="cert">Certificates</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- websites -->
+                    <div class="portfolio-item padd-15" data-category="web">
+                        <div class="portfolio-item-inner">
+                            <div class="porfolio-item-thumbnail">
+                                <img src="./assets/web-landing.svg" alt="landing page">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Website</span>
+                            <h3 class="portfolio-item-title">Landing Page</h3>
+                            <a href="./newbie/huddle-landing-page-with-single-introductory-section-master/"
+                                target="_blank"><span class="more-button">&hellip;</span></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item padd-15" data-category="web">
+                        <div class="portfolio-item-inner">
+                            <div class="porfolio-item-thumbnail">
+                                <img src="./assets/web-qr.svg" alt="QR Card">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Website</span>
+                            <h3 class="portfolio-item-title">QR Card</h3>
+                            <a href="./newbie/qr-code-component-main/" target="_blank"><span
+                                    class="more-button">&hellip;</span></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item padd-15" data-category="web">
+                        <div class="portfolio-item-inner">
+                            <div class="porfolio-item-thumbnail">
+                                <img src="./assets/web-order.svg" alt="Order Summary Card">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Website</span>
+                            <h3 class="portfolio-item-title">Order Summary Card</h3>
+                            <a href="./newbie/order-summary-component-main/" target="_blank"><span
+                                    class="more-button">&hellip;</span></a>
+                        </div>
+                    </div>
+                    <!-- illustrations -->
+                    <div class="portfolio-item padd-15 hide" data-category="illus">
+                        <div class="portfolio-item-inner">
+                            <div class="porfolio-item-thumbnail">
+                                <img src="./assets/illu-dv.svg" alt="Logo">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Illustration</span>
+                            <h3 class="portfolio-item-title">Logo Esports</h3>
+                            <span class="more-button">&hellip;</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-item padd-15 hide" data-category="illus">
+                        <div class="portfolio-item-inner">
+                            <div class="porfolio-item-thumbnail">
+                                <img src="./assets/illu-product.svg" alt="Product">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Illustration</span>
+                            <h3 class="portfolio-item-title">Product</h3>
+                            <span class="more-button">&hellip;</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-item padd-15 hide" data-category="illus">
+                        <div class="portfolio-item-inner">
+                            <div class="porfolio-item-thumbnail">
+                                <img src="./assets/illu-pa.svg" alt="Pixel Art">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Illustration</span>
+                            <h3 class="portfolio-item-title">Pixel Art</h3>
+                            <a href=""><span class="more-button">&hellip;</span></a>
+                        </div>
+                    </div>
+                    <!-- certifications -->
+                    <div class="portfolio-item padd-15 hide" data-category="cert">
+                        <div class="portfolio-item-inner">
+                            <div class="porfolio-item-thumbnail">
+                                <img src="./assets/cer-free.svg" alt="Freecode">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Certification</span>
+                            <h3 class="portfolio-item-title">Freecode</h3>
+                            <a href="https://www.freecodecamp.org/certification/Tony21019/responsive-web-design"
+                                target="_blank"><span class="more-button">&hellip;</span></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-item padd-15 hide" data-category="cert">
+                        <div class="portfolio-item-inner">
+                            <div class="porfolio-item-thumbnail">
+                                <img src="./assets/cer-goo.svg" alt="Google">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Certification</span>
+                            <h3 class="portfolio-item-title">Google</h3>
+                            <a href="./assets/7dbf9f59-473d-4df7-92a0-6b5a218b8a0b.pdf" target="_blank"><span
+                                    class="more-button">&hellip;</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Testimonial ===============-->
+        <!-- in future -->
+        <!--=============== Blog ===============-->
+        <!-- in future -->
+        <!--=============== Contact ===============-->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Contact me</h2>
+                <div class="row">
+                    <!-- contact box -->
+                    <div class="contact-box padd-15">
+                        <div class="contact-data">
+                            <!-- contact information -->
+                            <div class="contact-information">
+                                <h3 class="contact-sub">Write me by mail</h3>
+                                <span class="contact-des">
+                                    <i class="lni lni-envelope contact-icon"></i>
+                                    admm2502@gmail.com
+                                </span>
+                            </div>
+                            <!-- contact information -->
+                            <div class="contact-information">
+                                <h3 class="contact-sub">Find me on instagram</h3>
+                                <span class="contact-des">
+                                    <i class="lni lni-instagram-original contact-icon"></i>
+                                    @Tony21019
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- form -->
+                    <form action="" class="form padd-15" id="form">
+                        <div class="contact-inputs">
+                            <!-- contact content -->
+                            <div class="contact-content">
+                                <input type="text" class="contact-input name">
+                                <label for="" class="contact-label">Name</label>
+                            </div>
+                            <div class="contact-content">
+                                <input type="email" class="contact-input email">
+                                <label for="" class="contact-label">Email</label>
+                            </div>
+                            <div class="contact-content contact-area">
+                                <textarea name="" cols="30" rows="10" class="contact-input msg"></textarea>
+                                <label for="" class="contact-label">Message</label>
+                            </div>
+                        </div>
+                        <!-- send button from uiverse.io-->
+                        <button class="send">
+                            <div class="svg-wrapper-1">
+                                <div class="svg-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path fill="currentColor"
+                                            d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <span>Send</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--=============== Footer ===============-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-text padd-15">
+                    <p>&copy; 2022 Anthony Molina</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!--=============== Theme Customize ===============-->
+    <div class="customize-theme">
+        <div class="card">
+            <!-- font size -->
+            <div class="font-size">
+                <h2>Font Size</h2>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3 active"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <!-- color -->
+            <div class="color">
+                <h2>Color</h2>
+                <div class="choose-color">
+                    <span class="color-1"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3 active"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+            <!-- background -->
+            <div class="bg">
+                <h2>Background</h2>
+                <div class="choose-bg">
+                    <div class="bg-1">
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2 active">
+                        <h5 for="bg-2">Dark</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!--=============== Email ===============-->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("uxWWd2PzxO1TIPuzO");
+        })()
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!--=============== JS ===============-->
+    <script src="./main.js"></script>
+</body>
+
+</html>
